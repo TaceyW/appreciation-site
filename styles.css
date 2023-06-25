@@ -1,0 +1,107 @@
+body {
+    text-align: center; 
+    background: linear-gradient(#fbd72b, #f9484a);
+    font-family: 'Happy Monkey', cursive;
+    color: whitesmoke;
+    
+}
+h1, h2, h3,p {
+    text-shadow: 0 0 1px black;
+}
+
+#tagline{
+    background: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 45px 0 10px 0;
+}
+
+#date{
+    background:black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bean {
+    border-radius: 50%;
+    width: 30%;
+    height: auto;
+    border: dotted black; 
+  }
+
+.gift-section {
+    text-shadow: 0 0 1px black;
+}
+
+.gift-title{
+    text-shadow: 0 0 1px black;
+    margin-top: 80px;
+    font-size: 30px;
+
+}
+
+.gift-hint{
+    text-shadow: 0 0 1px black;
+}
+
+.gift-box {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-image: url("images/Gift-Box.jpg");
+    background-size: cover;
+    
+
+}
+#gift-proud:hover{
+    background-image: url("images/head-nod.webp");
+    transition-delay: 500ms;
+}
+#gift-crush:hover {
+    background-image: url("images/Crush.webp");
+    transition-delay: 500ms;
+    background-repeat: no-repeat;   
+    background-size: contain;
+    border-top: 100px solid black;
+    background-color: black;
+}
+#gift-eighty-four:hover {
+    background-image: url("images/84.webp");
+    transition-delay: 500ms;
+}
+#gift-got-you:hover {
+    background-image: url("images/Got-you.webp");
+    transition-delay: 500ms;
+}
+#gift-enemies:hover {
+    background-image: url("images/Crush.webp");
+    transition-delay: 500ms;
+    background-repeat: no-repeat;   
+    background-size: contain;
+    border-top: 100px solid black;
+    background-color: black;
+    height: 400px;
+}
+#footer {
+    font-size: 17px;  
+    font-style: italic;
+    margin: 50px auto 20px;
+    width: 400px;
+}
+
+a{
+    color: white;
+}
+
+
+
+
